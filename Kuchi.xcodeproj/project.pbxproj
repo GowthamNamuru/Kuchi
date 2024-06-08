@@ -17,6 +17,13 @@
 		150ADE982C1416ED005F40DC /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE972C1416ED005F40DC /* WelcomeMessageView.swift */; };
 		150ADE9A2C141738005F40DC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE992C141738005F40DC /* RegisterView.swift */; };
 		150ADE9C2C142074005F40DC /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE9B2C142074005F40DC /* BorderedViewModifier.swift */; };
+		150ADE9F2C142BAC005F40DC /* ChoicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE9E2C142BAC005F40DC /* ChoicesView.swift */; };
+		150ADEA12C142BC0005F40DC /* ChallengesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA02C142BC0005F40DC /* ChallengesViewModel.swift */; };
+		150ADEA32C142E0F005F40DC /* ChoicesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA22C142E0F005F40DC /* ChoicesRow.swift */; };
+		150ADEA82C142F95005F40DC /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA42C142F95005F40DC /* ChallengeView.swift */; };
+		150ADEA92C142F95005F40DC /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA52C142F95005F40DC /* CongratulationsView.swift */; };
+		150ADEAA2C142F95005F40DC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA62C142F95005F40DC /* QuestionView.swift */; };
+		150ADEAB2C142F95005F40DC /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA72C142F95005F40DC /* PracticeView.swift */; };
 		1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3EB2C13E54000232833 /* KuchiApp.swift */; };
 		1566D3EE2C13E54000232833 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3ED2C13E54000232833 /* HomeView.swift */; };
 		1566D3F02C13E54100232833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566D3EF2C13E54100232833 /* Assets.xcassets */; };
@@ -56,6 +63,13 @@
 		150ADE972C1416ED005F40DC /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
 		150ADE992C141738005F40DC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		150ADE9B2C142074005F40DC /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
+		150ADE9E2C142BAC005F40DC /* ChoicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesView.swift; sourceTree = "<group>"; };
+		150ADEA02C142BC0005F40DC /* ChallengesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengesViewModel.swift; sourceTree = "<group>"; };
+		150ADEA22C142E0F005F40DC /* ChoicesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoicesRow.swift; sourceTree = "<group>"; };
+		150ADEA42C142F95005F40DC /* ChallengeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		150ADEA52C142F95005F40DC /* CongratulationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationsView.swift; sourceTree = "<group>"; };
+		150ADEA62C142F95005F40DC /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		150ADEA72C142F95005F40DC /* PracticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
 		1566D3E82C13E54000232833 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566D3EB2C13E54000232833 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		1566D3ED2C13E54000232833 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -127,6 +141,20 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		150ADE9D2C142B9C005F40DC /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				150ADEA42C142F95005F40DC /* ChallengeView.swift */,
+				150ADEA52C142F95005F40DC /* CongratulationsView.swift */,
+				150ADEA72C142F95005F40DC /* PracticeView.swift */,
+				150ADEA62C142F95005F40DC /* QuestionView.swift */,
+				150ADE9E2C142BAC005F40DC /* ChoicesView.swift */,
+				150ADEA02C142BC0005F40DC /* ChallengesViewModel.swift */,
+				150ADEA22C142E0F005F40DC /* ChoicesRow.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
 		1566D3DF2C13E54000232833 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +178,7 @@
 		1566D3EA2C13E54000232833 /* Kuchi */ = {
 			isa = PBXGroup;
 			children = (
+				150ADE9D2C142B9C005F40DC /* Practice */,
 				150ADE8B2C141284005F40DC /* Profile */,
 				150ADE862C13E6FE005F40DC /* Welcome */,
 				1566D3EB2C13E54000232833 /* KuchiApp.swift */,
@@ -346,7 +375,14 @@
 				150ADE882C13E716005F40DC /* WelcomeView.swift in Sources */,
 				150ADE8A2C141132005F40DC /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				150ADE942C141610005F40DC /* WelcomeBackgroundImage.swift in Sources */,
+				150ADE9F2C142BAC005F40DC /* ChoicesView.swift in Sources */,
+				150ADEA92C142F95005F40DC /* CongratulationsView.swift in Sources */,
+				150ADEA82C142F95005F40DC /* ChallengeView.swift in Sources */,
+				150ADEA12C142BC0005F40DC /* ChallengesViewModel.swift in Sources */,
 				1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */,
+				150ADEAA2C142F95005F40DC /* QuestionView.swift in Sources */,
+				150ADEAB2C142F95005F40DC /* PracticeView.swift in Sources */,
+				150ADEA32C142E0F005F40DC /* ChoicesRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
