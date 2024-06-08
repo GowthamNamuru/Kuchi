@@ -24,6 +24,8 @@
 		150ADEA92C142F95005F40DC /* CongratulationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA52C142F95005F40DC /* CongratulationsView.swift */; };
 		150ADEAA2C142F95005F40DC /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA62C142F95005F40DC /* QuestionView.swift */; };
 		150ADEAB2C142F95005F40DC /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEA72C142F95005F40DC /* PracticeView.swift */; };
+		150ADEAE2C144703005F40DC /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEAC2C144703005F40DC /* HistoryView.swift */; };
+		150ADEAF2C144703005F40DC /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADEAD2C144703005F40DC /* StarterView.swift */; };
 		1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3EB2C13E54000232833 /* KuchiApp.swift */; };
 		1566D3EE2C13E54000232833 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3ED2C13E54000232833 /* HomeView.swift */; };
 		1566D3F02C13E54100232833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566D3EF2C13E54100232833 /* Assets.xcassets */; };
@@ -70,6 +72,8 @@
 		150ADEA52C142F95005F40DC /* CongratulationsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CongratulationsView.swift; sourceTree = "<group>"; };
 		150ADEA62C142F95005F40DC /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		150ADEA72C142F95005F40DC /* PracticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		150ADEAC2C144703005F40DC /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		150ADEAD2C144703005F40DC /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		1566D3E82C13E54000232833 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566D3EB2C13E54000232833 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		1566D3ED2C13E54000232833 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				150ADE8B2C141284005F40DC /* Profile */,
 				150ADE862C13E6FE005F40DC /* Welcome */,
 				1566D3EB2C13E54000232833 /* KuchiApp.swift */,
+				150ADEAC2C144703005F40DC /* HistoryView.swift */,
+				150ADEAD2C144703005F40DC /* StarterView.swift */,
 				1566D3ED2C13E54000232833 /* HomeView.swift */,
 				1566D4152C13E5C500232833 /* Resources */,
 				1566D3F12C13E54100232833 /* Preview Content */,
@@ -378,9 +384,11 @@
 				150ADE9F2C142BAC005F40DC /* ChoicesView.swift in Sources */,
 				150ADEA92C142F95005F40DC /* CongratulationsView.swift in Sources */,
 				150ADEA82C142F95005F40DC /* ChallengeView.swift in Sources */,
+				150ADEAF2C144703005F40DC /* StarterView.swift in Sources */,
 				150ADEA12C142BC0005F40DC /* ChallengesViewModel.swift in Sources */,
 				1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */,
 				150ADEAA2C142F95005F40DC /* QuestionView.swift in Sources */,
+				150ADEAE2C144703005F40DC /* HistoryView.swift in Sources */,
 				150ADEAB2C142F95005F40DC /* PracticeView.swift in Sources */,
 				150ADEA32C142E0F005F40DC /* ChoicesRow.swift in Sources */,
 			);
