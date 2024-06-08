@@ -12,6 +12,11 @@
 		150ADE8D2C14129F005F40DC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE8C2C14129F005F40DC /* Profile.swift */; };
 		150ADE8F2C1412DE005F40DC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE8E2C1412DE005F40DC /* Settings.swift */; };
 		150ADE912C1413F5005F40DC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE902C1413F5005F40DC /* UserManager.swift */; };
+		150ADE942C141610005F40DC /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE932C141610005F40DC /* WelcomeBackgroundImage.swift */; };
+		150ADE962C1416B3005F40DC /* LogoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE952C1416B3005F40DC /* LogoImage.swift */; };
+		150ADE982C1416ED005F40DC /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE972C1416ED005F40DC /* WelcomeMessageView.swift */; };
+		150ADE9A2C141738005F40DC /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE992C141738005F40DC /* RegisterView.swift */; };
+		150ADE9C2C142074005F40DC /* BorderedViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE9B2C142074005F40DC /* BorderedViewModifier.swift */; };
 		1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3EB2C13E54000232833 /* KuchiApp.swift */; };
 		1566D3EE2C13E54000232833 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3ED2C13E54000232833 /* HomeView.swift */; };
 		1566D3F02C13E54100232833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566D3EF2C13E54100232833 /* Assets.xcassets */; };
@@ -46,6 +51,11 @@
 		150ADE8C2C14129F005F40DC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		150ADE8E2C1412DE005F40DC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		150ADE902C1413F5005F40DC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		150ADE932C141610005F40DC /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
+		150ADE952C1416B3005F40DC /* LogoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImage.swift; sourceTree = "<group>"; };
+		150ADE972C1416ED005F40DC /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		150ADE992C141738005F40DC /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		150ADE9B2C142074005F40DC /* BorderedViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedViewModifier.swift; sourceTree = "<group>"; };
 		1566D3E82C13E54000232833 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566D3EB2C13E54000232833 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		1566D3ED2C13E54000232833 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -88,8 +98,10 @@
 		150ADE862C13E6FE005F40DC /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
+				150ADE922C1415F7005F40DC /* Components */,
 				150ADE872C13E716005F40DC /* WelcomeView.swift */,
 				150ADE892C141132005F40DC /* HorizontallyAlignedLabelStyle.swift */,
+				150ADE992C141738005F40DC /* RegisterView.swift */,
 			);
 			path = Welcome;
 			sourceTree = "<group>";
@@ -102,6 +114,17 @@
 				150ADE902C1413F5005F40DC /* UserManager.swift */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		150ADE922C1415F7005F40DC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				150ADE932C141610005F40DC /* WelcomeBackgroundImage.swift */,
+				150ADE952C1416B3005F40DC /* LogoImage.swift */,
+				150ADE972C1416ED005F40DC /* WelcomeMessageView.swift */,
+				150ADE9B2C142074005F40DC /* BorderedViewModifier.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		1566D3DF2C13E54000232833 = {
@@ -312,12 +335,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150ADE9A2C141738005F40DC /* RegisterView.swift in Sources */,
 				150ADE8F2C1412DE005F40DC /* Settings.swift in Sources */,
+				150ADE9C2C142074005F40DC /* BorderedViewModifier.swift in Sources */,
 				1566D3EE2C13E54000232833 /* HomeView.swift in Sources */,
 				150ADE912C1413F5005F40DC /* UserManager.swift in Sources */,
+				150ADE982C1416ED005F40DC /* WelcomeMessageView.swift in Sources */,
+				150ADE962C1416B3005F40DC /* LogoImage.swift in Sources */,
 				150ADE8D2C14129F005F40DC /* Profile.swift in Sources */,
 				150ADE882C13E716005F40DC /* WelcomeView.swift in Sources */,
 				150ADE8A2C141132005F40DC /* HorizontallyAlignedLabelStyle.swift in Sources */,
+				150ADE942C141610005F40DC /* WelcomeBackgroundImage.swift in Sources */,
 				1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
