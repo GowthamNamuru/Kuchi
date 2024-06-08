@@ -5,4 +5,6 @@
 //  Created by Gowtham Namuru on 08/06/24.
 //
 
-import Foundation
+struct Settings: Codable {
+    var rememberUser: Bool = false
+}

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		150ADE882C13E716005F40DC /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE872C13E716005F40DC /* WelcomeView.swift */; };
 		150ADE8A2C141132005F40DC /* HorizontallyAlignedLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE892C141132005F40DC /* HorizontallyAlignedLabelStyle.swift */; };
+		150ADE8D2C14129F005F40DC /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE8C2C14129F005F40DC /* Profile.swift */; };
+		150ADE8F2C1412DE005F40DC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE8E2C1412DE005F40DC /* Settings.swift */; };
+		150ADE912C1413F5005F40DC /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150ADE902C1413F5005F40DC /* UserManager.swift */; };
 		1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3EB2C13E54000232833 /* KuchiApp.swift */; };
 		1566D3EE2C13E54000232833 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1566D3ED2C13E54000232833 /* HomeView.swift */; };
 		1566D3F02C13E54100232833 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1566D3EF2C13E54100232833 /* Assets.xcassets */; };
@@ -40,6 +43,9 @@
 /* Begin PBXFileReference section */
 		150ADE872C13E716005F40DC /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		150ADE892C141132005F40DC /* HorizontallyAlignedLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontallyAlignedLabelStyle.swift; sourceTree = "<group>"; };
+		150ADE8C2C14129F005F40DC /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		150ADE8E2C1412DE005F40DC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		150ADE902C1413F5005F40DC /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		1566D3E82C13E54000232833 /* Kuchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kuchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1566D3EB2C13E54000232833 /* KuchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KuchiApp.swift; sourceTree = "<group>"; };
 		1566D3ED2C13E54000232833 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -88,6 +94,16 @@
 			path = Welcome;
 			sourceTree = "<group>";
 		};
+		150ADE8B2C141284005F40DC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				150ADE8C2C14129F005F40DC /* Profile.swift */,
+				150ADE8E2C1412DE005F40DC /* Settings.swift */,
+				150ADE902C1413F5005F40DC /* UserManager.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		1566D3DF2C13E54000232833 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +127,7 @@
 		1566D3EA2C13E54000232833 /* Kuchi */ = {
 			isa = PBXGroup;
 			children = (
+				150ADE8B2C141284005F40DC /* Profile */,
 				150ADE862C13E6FE005F40DC /* Welcome */,
 				1566D3EB2C13E54000232833 /* KuchiApp.swift */,
 				1566D3ED2C13E54000232833 /* HomeView.swift */,
@@ -295,7 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150ADE8F2C1412DE005F40DC /* Settings.swift in Sources */,
 				1566D3EE2C13E54000232833 /* HomeView.swift in Sources */,
+				150ADE912C1413F5005F40DC /* UserManager.swift in Sources */,
+				150ADE8D2C14129F005F40DC /* Profile.swift in Sources */,
 				150ADE882C13E716005F40DC /* WelcomeView.swift in Sources */,
 				150ADE8A2C141132005F40DC /* HorizontallyAlignedLabelStyle.swift in Sources */,
 				1566D3EC2C13E54000232833 /* KuchiApp.swift in Sources */,
